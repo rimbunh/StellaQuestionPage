@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: StellaQuestionPage
+  host: StellaQuestionPage
+  disk_quota: 1024M
+  services:
+  - ASK_STELA
+  - StellaQuestionPage-cloudantNoSQLDB
